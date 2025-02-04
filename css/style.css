@@ -1,17 +1,23 @@
+
+/* Common */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.d-flex{
+    display: flex;
+}
 
-/* header */
-
-header .container{
+.container{
     width: 1383px;
     margin: 0 auto;
     font-family: sans-serif;
 }
+
+/* header */
 
 header{
     background-color: #ff6900;
@@ -41,4 +47,24 @@ header img{
 header a{
     text-decoration: none;
     color: #ffffff;
+}
+
+
+/* Corpo della pagina */
+
+main{
+    margin-top: 60px;
+}
+
+main .d-flex> div{
+    width: calc(100% /3);
+    height: 700px;
+    background-color: blue;
+    border: 2px solid #ffffff;
+}
+
+
+main .d-flex{
+    flex-wrap: wrap;
+    gap: 0px;
 }
