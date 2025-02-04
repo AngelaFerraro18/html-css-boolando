@@ -26,32 +26,32 @@ ul {
     gap: 10px;
 }
 
-#hover-1:hover{
+#hover-1:hover {
     content: url('../img/1b.webp');
     transition: 0.3s;
 }
 
-#hover-2:hover{
+#hover-2:hover {
     content: url('../img/2b.webp');
     transition: 0.3s;
 }
 
-#hover-3:hover{
+#hover-3:hover {
     content: url('../img/3b.webp');
     transition: 0.3s;
 }
 
-#hover-4:hover{
+#hover-4:hover {
     content: url('../img/4b.webp');
     transition: 0.3s;
 }
 
-#hover-5:hover{
+#hover-5:hover {
     content: url('../img/5b.webp');
     transition: 0.3s;
 }
 
-#hover-6:hover{
+#hover-6:hover {
     content: url('../img/6b.webp');
     transition: 0.3s;
 }
@@ -145,7 +145,7 @@ main .casella-verde {
     left: 70px;
 }
 
-main .cs-verde{
+main .cs-verde {
     left: 0px;
 }
 
@@ -166,29 +166,31 @@ main .card {
     position: relative;
 }
 
-main .fa-heart:hover{
+main .fa-heart:hover {
     color: #ff0000;
     font-size: 25px;
     transition: 0.2s;
+}
+
 
 /* Piede della pagina */
 
-footer{
+footer {
     height: 110px;
     background-color: #1a1a1a;
     border-bottom: 2px solid #ffffff;
     color: #ffffff;
 }
 
-footer div{
+footer div {
     margin-top: 32px;
 }
 
-footer .d-flex{
+footer .d-flex {
     justify-content: space-between;
     align-items: center;
 }
 
-footer .spazio{
+footer .spazio {
     margin-bottom: 15px;
 }
