@@ -16,9 +16,27 @@ header .container{
 header{
     background-color: #ff6900;
     color: #ffffff;
+    padding: 18px 0;
+}
+
+header>div{
+    justify-content: space-between;
 }
 
 header .d-flex{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
+
+header .d-flex ul{
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: bold;
+    gap: 10px;
+}
+
+header img{
+    width: 135px;
+}
+
+
