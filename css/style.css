@@ -57,14 +57,35 @@ main{
 }
 
 main .d-flex> div{
-    width: calc(100% /3);
-    height: 700px;
+    width: calc((100% - 40px) /3);
     background-color: blue;
-    border: 2px solid #ffffff;
 }
 
 
 main .d-flex{
     flex-wrap: wrap;
-    gap: 0px;
+    gap: 100px 20px;
+}
+
+main .d-flex div> img{
+    width: 100%;
+
+}
+
+main .thin-title{
+    font-weight: lighter;
+}
+
+main div h3{
+    text-transform: uppercase;
+}
+
+main .red-text{
+    color: #ff0000;
+    display: inline-block;
+}
+
+main .line{
+    text-decoration: line-through;
+    display: inline-block;
 }
