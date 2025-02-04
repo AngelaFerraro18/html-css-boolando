@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* header */
+
+header .container{
+    width: 1383px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: #ff6900;
+    color: #ffffff;
+}
+
+header .d-flex{
+    display: flex;
+    justify-content: space-between;
+}
