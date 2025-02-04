@@ -26,6 +26,42 @@ ul {
     gap: 10px;
 }
 
+.fa-heart:hover{
+    color: #ff0000;
+    font-size: 25px;
+    transition: 0.2s;
+}
+
+#hover-1:hover{
+    content: url('../img/1b.webp');
+    transition: 0.3s;
+}
+
+#hover-2:hover{
+    content: url('../img/2b.webp');
+    transition: 0.3s;
+}
+
+#hover-3:hover{
+    content: url('../img/3b.webp');
+    transition: 0.3s;
+}
+
+#hover-4:hover{
+    content: url('../img/4b.webp');
+    transition: 0.3s;
+}
+
+#hover-5:hover{
+    content: url('../img/5b.webp');
+    transition: 0.3s;
+}
+
+#hover-6:hover{
+    content: url('../img/6b.webp');
+    transition: 0.3s;
+}
+
 /* header */
 
 header {
@@ -122,6 +158,7 @@ main .cs-verde{
 main .cuore {
     width: 50px;
     height: 50px;
+    font-size: 18px;
     background-color: #ffffff;
     color: #000;
     align-items: center;
