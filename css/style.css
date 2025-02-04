@@ -16,6 +16,17 @@
     font-family: sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+    gap: 10px;
+}
+
+
 /* header */
 
 header {
@@ -33,26 +44,20 @@ header .d-flex {
 }
 
 header .d-flex ul {
-    list-style-type: none;
     font-size: 18px;
     font-weight: bold;
-    gap: 10px;
 }
 
 header img {
     width: 135px;
 }
 
-header a {
-    text-decoration: none;
-    color: #ffffff;
-}
 
 
 /* Corpo della pagina */
 
 main {
-    margin-top: 60px;
+    margin: 60px;
 }
 
 main .d-flex>div {
@@ -105,6 +110,10 @@ main .casella-verde {
     left: 70px;
 }
 
+main .cs-verde{
+    left: 0px;
+}
+
 main .cuore {
     width: 50px;
     height: 50px;
@@ -119,4 +128,27 @@ main .cuore {
 
 main .card {
     position: relative;
+}
+
+
+/* Piede della pagina */
+
+footer{
+    height: 110px;
+    background-color: #1a1a1a;
+    border-bottom: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+footer div{
+    margin-top: 32px;
+}
+
+footer .d-flex{
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .spazio{
+    margin-bottom: 15px;
 }
